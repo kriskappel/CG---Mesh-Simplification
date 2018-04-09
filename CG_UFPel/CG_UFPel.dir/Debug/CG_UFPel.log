@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1767,5): warning : The referenced project 'C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\ZERO_CHECK.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1767,5): warning : The referenced project 'C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1767,5): warning : The referenced project 'C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\GLEW_190.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1767,5): warning : The referenced project 'C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\src\GLFW_303.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1767,5): warning : The referenced project 'C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\code\assimp.vcxproj' does not exist.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1767,5): warning : The referenced project 'C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj' does not exist.
+  Building Custom Rule C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt
+  CMake is re-running because C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
