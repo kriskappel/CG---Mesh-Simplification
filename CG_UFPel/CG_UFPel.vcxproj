@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C76EFB87-A153-39C0-BD30-2A2EA0CD83CE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>CG_UFPel</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CG_UFPel.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CG_UFPel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CG_UFPel.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CG_UFPel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CG_UFPel.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CG_UFPel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CG_UFPel.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CG_UFPel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;external\glfw-3.0.3\src\Debug\glfw3.lib;external\Debug\GLEW_190.lib;external\Debug\ANTTWEAKBAR_116_OGLCORE_GLFW.lib;external\assimp-3.0.1270\code\Debug\assimp.lib;glu32.lib;opengl32.lib;external\assimp-3.0.1270\contrib\zlib\Debug\zlibd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/Debug/CG_UFPel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/Debug/CG_UFPel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;external\glfw-3.0.3\src\Release\glfw3.lib;external\Release\GLEW_190.lib;external\Release\ANTTWEAKBAR_116_OGLCORE_GLFW.lib;external\assimp-3.0.1270\code\Release\assimp.lib;glu32.lib;opengl32.lib;external\assimp-3.0.1270\contrib\zlib\Release\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/Release/CG_UFPel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/Release/CG_UFPel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;external\glfw-3.0.3\src\MinSizeRel\glfw3.lib;external\MinSizeRel\GLEW_190.lib;external\MinSizeRel\ANTTWEAKBAR_116_OGLCORE_GLFW.lib;external\assimp-3.0.1270\code\MinSizeRel\assimp.lib;glu32.lib;opengl32.lib;external\assimp-3.0.1270\contrib\zlib\MinSizeRel\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/MinSizeRel/CG_UFPel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/MinSizeRel/CG_UFPel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\AntTweakBar-1.16\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\include\GLFW;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glm-0.9.4.0;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glew-1.9.0\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\include;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;external\glfw-3.0.3\src\RelWithDebInfo\glfw3.lib;external\RelWithDebInfo\GLEW_190.lib;external\RelWithDebInfo\ANTTWEAKBAR_116_OGLCORE_GLFW.lib;external\assimp-3.0.1270\code\RelWithDebInfo\assimp.lib;glu32.lib;opengl32.lib;external\assimp-3.0.1270\contrib\zlib\RelWithDebInfo\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/RelWithDebInfo/CG_UFPel.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/RelWithDebInfo/CG_UFPel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" "-BC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" --check-stamp-file "C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCCompiler.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" "-BC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" --check-stamp-file "C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCCompiler.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" "-BC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" --check-stamp-file "C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCCompiler.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" "-BC:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel" --check-stamp-file "C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Kristofer Kappel/Documents/Facul/CG/CG_UFPel/CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCCompiler.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\3.9.3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\controls.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\main.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\objloader.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\quaternion_utils.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\shader.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\tangentspace.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\text2D.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\texture.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\vboindexer.cpp"  />
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\glerror.cpp"  />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\controls.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\objloader.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\quaternion_utils.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\shader.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\tangentspace.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\text2D.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\texture.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\vboindexer.hpp" />
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\glerror.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\ZERO_CHECK.vcxproj">
+      <Project>{4C72693C-3C6A-3FE1-BC46-9C062D6DACCD}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{6B12BB47-B5D5-3628-9BED-63C6C3071A42}</Project>
+      <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\GLEW_190.vcxproj">
+      <Project>{67ADB41A-0602-31E4-B186-5F2B8A59AF3D}</Project>
+      <Name>GLEW_190</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\glfw-3.0.3\src\GLFW_303.vcxproj">
+      <Project>{8F3E8A76-4CD4-305D-9DE0-0FE756FF0120}</Project>
+      <Name>GLFW_303</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{81FA2AB7-E892-3595-9E86-16919D9CB355}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{5E5DD751-1F31-3D33-BC2F-94AE7786003B}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

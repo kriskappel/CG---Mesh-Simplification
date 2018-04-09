@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\objloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\quaternion_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\tangentspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\text2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\vboindexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\sources\glerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\controls.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\objloader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\quaternion_utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\tangentspace.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\text2D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\vboindexer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\include\glerror.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kristofer Kappel\Documents\Facul\CG\CG_UFPel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0F8C571-5689-3B29-AE6C-D949F28DF4B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D6434F5E-06F5-3F4E-82A0-E66C3C33189A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
